@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10ACE38C4F01EC33C63ED999 /* PlexModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44193CDB5F7DA5B8061EDB12 /* PlexModels.swift */; };
+		293285C0FCA6EEB15B9C6D72 /* PlexAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E030F56E9480241AFFC621 /* PlexAPI.swift */; };
+		3725E60B8A49108E7BC5E706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E505451BD11A0D8C07895AF /* Assets.xcassets */; };
+		46076F4F19C4D89C8C843AC6 /* PlexDesktopWidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4C7F561499EBB0125EF27 /* PlexDesktopWidgetsApp.swift */; };
+		491393851EA0E17915B35FA7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1491A0D62EDC52929CFEC3 /* Theme.swift */; };
+		5304109EB375DB98BD84B96B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A149FEDA249712EB5F8B8C2D /* SettingsView.swift */; };
+		5800774180AA93DEB53CF675 /* BandwidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61D9B0915F458754AC07D3 /* BandwidthView.swift */; };
+		9E1B7776D5A7540C31538E6A /* NativeSystemStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04860490DD1950E31CB94B9B /* NativeSystemStats.swift */; };
+		B9E25C5E2137A09982876530 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7FFF2DE76DD04508EE5E25 /* NowPlayingView.swift */; };
+		BD9F1792E0D75DD96A0ACFAE /* PlexConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A3B7021A09A98822756D7 /* PlexConfig.swift */; };
+		D7E5C2F54FC9DA941C11DFEC /* SystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63862410F5E73A3E22E0CE29 /* SystemView.swift */; };
+		E37A9A3B763AE80E7CE150F9 /* PlexDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338C3EB75E9B4F1229FDF27 /* PlexDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04860490DD1950E31CB94B9B /* NativeSystemStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSystemStats.swift; sourceTree = "<group>"; };
+		0E1491A0D62EDC52929CFEC3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		12C4C7F561499EBB0125EF27 /* PlexDesktopWidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexDesktopWidgetsApp.swift; sourceTree = "<group>"; };
+		1C7FFF2DE76DD04508EE5E25 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		23E030F56E9480241AFFC621 /* PlexAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexAPI.swift; sourceTree = "<group>"; };
+		2D7C0319FECBE13EF757D9C0 /* PlexDesktopWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlexDesktopWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44193CDB5F7DA5B8061EDB12 /* PlexModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexModels.swift; sourceTree = "<group>"; };
+		5A61D9B0915F458754AC07D3 /* BandwidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandwidthView.swift; sourceTree = "<group>"; };
+		60FB5D2AF69A0A6F08D87217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6338C3EB75E9B4F1229FDF27 /* PlexDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexDataManager.swift; sourceTree = "<group>"; };
+		63862410F5E73A3E22E0CE29 /* SystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemView.swift; sourceTree = "<group>"; };
+		8E505451BD11A0D8C07895AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A149FEDA249712EB5F8B8C2D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DE6A3B7021A09A98822756D7 /* PlexConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6EE7B9A4E01B0DE9F537A612 /* PlexDesktopWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				8E505451BD11A0D8C07895AF /* Assets.xcassets */,
+				5A61D9B0915F458754AC07D3 /* BandwidthView.swift */,
+				60FB5D2AF69A0A6F08D87217 /* Info.plist */,
+				04860490DD1950E31CB94B9B /* NativeSystemStats.swift */,
+				1C7FFF2DE76DD04508EE5E25 /* NowPlayingView.swift */,
+				23E030F56E9480241AFFC621 /* PlexAPI.swift */,
+				DE6A3B7021A09A98822756D7 /* PlexConfig.swift */,
+				6338C3EB75E9B4F1229FDF27 /* PlexDataManager.swift */,
+				12C4C7F561499EBB0125EF27 /* PlexDesktopWidgetsApp.swift */,
+				44193CDB5F7DA5B8061EDB12 /* PlexModels.swift */,
+				A149FEDA249712EB5F8B8C2D /* SettingsView.swift */,
+				63862410F5E73A3E22E0CE29 /* SystemView.swift */,
+				0E1491A0D62EDC52929CFEC3 /* Theme.swift */,
+			);
+			path = PlexDesktopWidgets;
+			sourceTree = "<group>";
+		};
+		AE1976000E550333B4A3A5AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D7C0319FECBE13EF757D9C0 /* PlexDesktopWidgets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2382119129BC37E2A29AF1C = {
+			isa = PBXGroup;
+			children = (
+				6EE7B9A4E01B0DE9F537A612 /* PlexDesktopWidgets */,
+				AE1976000E550333B4A3A5AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFED00CD008931DFDB25F79 /* PlexDesktopWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0FA6CDFD5C44A4CEAE16C1 /* Build configuration list for PBXNativeTarget "PlexDesktopWidgets" */;
+			buildPhases = (
+				D6393D5F9C1D4C0096FD32E9 /* Sources */,
+				2AE3A7F8FC51BC9E7D5E3C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlexDesktopWidgets;
+			packageProductDependencies = (
+			);
+			productName = PlexDesktopWidgets;
+			productReference = 2D7C0319FECBE13EF757D9C0 /* PlexDesktopWidgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7CA87F1423C0BC6DAC89498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = B813D0DA084AE381A4BB2E81 /* Build configuration list for PBXProject "PlexDesktopWidgets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F2382119129BC37E2A29AF1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFED00CD008931DFDB25F79 /* PlexDesktopWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE3A7F8FC51BC9E7D5E3C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725E60B8A49108E7BC5E706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6393D5F9C1D4C0096FD32E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5800774180AA93DEB53CF675 /* BandwidthView.swift in Sources */,
+				9E1B7776D5A7540C31538E6A /* NativeSystemStats.swift in Sources */,
+				B9E25C5E2137A09982876530 /* NowPlayingView.swift in Sources */,
+				293285C0FCA6EEB15B9C6D72 /* PlexAPI.swift in Sources */,
+				BD9F1792E0D75DD96A0ACFAE /* PlexConfig.swift in Sources */,
+				E37A9A3B763AE80E7CE150F9 /* PlexDataManager.swift in Sources */,
+				46076F4F19C4D89C8C843AC6 /* PlexDesktopWidgetsApp.swift in Sources */,
+				10ACE38C4F01EC33C63ED999 /* PlexModels.swift in Sources */,
+				5304109EB375DB98BD84B96B /* SettingsView.swift in Sources */,
+				D7E5C2F54FC9DA941C11DFEC /* SystemView.swift in Sources */,
+				491393851EA0E17915B35FA7 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		023E8424A01D0CA003C6262E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		0D86AE03A941D71A451BEBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = PlexDesktopWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonbarton.PlexDesktopWidgets;
+				PRODUCT_NAME = "Plex Desktop Widgets";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4007A2224D8D3CF2F9F8D778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = PlexDesktopWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonbarton.PlexDesktopWidgets;
+				PRODUCT_NAME = "Plex Desktop Widgets";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEFBB34A05059494A9A83535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0FA6CDFD5C44A4CEAE16C1 /* Build configuration list for PBXNativeTarget "PlexDesktopWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4007A2224D8D3CF2F9F8D778 /* Debug */,
+				0D86AE03A941D71A451BEBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B813D0DA084AE381A4BB2E81 /* Build configuration list for PBXProject "PlexDesktopWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023E8424A01D0CA003C6262E /* Debug */,
+				FEFBB34A05059494A9A83535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7CA87F1423C0BC6DAC89498 /* Project object */;
+}
